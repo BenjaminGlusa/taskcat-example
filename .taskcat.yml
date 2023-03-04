@@ -1,0 +1,8 @@
+project:
+  name: taskcat-example
+  regions:
+    - eu-west-1
+    - eu-west-2
+tests:
+  sqs-test:
+    template: ./sqs.yml
